@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRegistroEmpleados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Empleados" />
+
+    <Button
+        android:id="@+id/btnGestionDepartamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Departamentos" />
+
+    <Button
+        android:id="@+id/btnAsignacionEmpleados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asignación de Empleados a Departamentos" />
+
+    <Button
+        android:id="@+id/btnRegistroTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de Tiempo" />
+
+    <Button
+        android:id="@+id/btnGestionProyectos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gestión de Proyectos" />
+
+</LinearLayout>
